@@ -1,4 +1,0 @@
-app = "painel-fubanga"
-
-[env]
-PORT = "8080"
