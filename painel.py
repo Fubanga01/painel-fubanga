@@ -19,6 +19,6 @@ async def criar_conta(request: Request):
     email = form.get("email")
     telefone = form.get("telefone")
 
-    print(f"Criando conta: Nome={nome}, Email={email}, Telefone={telefone}")
+    print(f"[PAINEL FUBANGA] Criando conta: Nome={nome}, Email={email}, Telefone={telefone}")
 
     return JSONResponse(content={"status": "ok", "mensagem": f"Conta {nome} criada com sucesso!"})
